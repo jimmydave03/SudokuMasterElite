@@ -1,4 +1,35 @@
 {
-  "name": "SudokuMasterElite",
-  "slug": "SudokuMasterElite"
+  "expo": {
+    "name": "Sudoku Master Elite",
+    "slug": "sudoku-master-elite",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sudokumasterelite",
+      "versionCode": 5,
+      "enableProguardInReleaseBuilds": true,
+      "enableHermes": true,
+      "enableShrinkResources": true,
+      "buildToolsVersion": "33.0.0"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c86ce47-a65c-40db-96fa-1d7b3cb0352c"
+      }
+    }
+  }
 }

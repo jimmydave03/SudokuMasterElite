@@ -1,50 +1,71 @@
+# SudokuMaster Elite
 
-# TypeScript
+A modern and elegant Sudoku game built with React Native and Expo. Challenge yourself with three difficulty levels and track your progress!
 
-[![CI](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/microsoft/TypeScript/badge)](https://securityscorecards.dev/viewer/?uri=github.com/microsoft/TypeScript)
+## Features
 
+- 🎮 Three difficulty levels: Easy, Medium, and Hard
+- 🎨 Clean and modern UI design
+- 📱 Cross-platform (iOS and Android)
+- 🏆 Progress tracking and statistics
+- 🌓 Light theme optimized for readability
+- 📊 Game statistics and achievements
+- 💰 Monetization ready with Google AdMob integration
 
-[TypeScript](https://www.typescriptlang.org/) is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the [playground](https://www.typescriptlang.org/play/), and stay up to date via [our blog](https://blogs.msdn.microsoft.com/typescript) and [Twitter account](https://twitter.com/typescript).
+## Getting Started
 
-Find others who are using TypeScript at [our community page](https://www.typescriptlang.org/community/).
+### Prerequisites
 
-## Installing
+- Node.js (version 14.0 or higher)
+- npm or yarn
+- Expo CLI
+- Android Studio (for Android development)
+- Xcode (for iOS development, macOS only)
 
-For the latest stable version:
+### Installation
 
+1. Clone the repository:
 ```bash
-npm install -D typescript
+git clone https://github.com/yourusername/SudokuMasterElite.git
+cd SudokuMasterElite
 ```
 
-For our nightly builds:
-
+2. Install dependencies:
 ```bash
-npm install -D typescript@next
+npm install
 ```
 
-## Contribute
+3. Start the development server:
+```bash
+npm start
+```
 
-There are many ways to [contribute](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md) to TypeScript.
-* [Submit bugs](https://github.com/microsoft/TypeScript/issues) and help us verify fixes as they are checked in.
-* Review the [source code changes](https://github.com/microsoft/TypeScript/pulls).
-* Engage with other TypeScript users and developers on [StackOverflow](https://stackoverflow.com/questions/tagged/typescript).
-* Help each other in the [TypeScript Community Discord](https://discord.gg/typescript).
-* Join the [#typescript](https://twitter.com/search?q=%23TypeScript) discussion on Twitter.
-* [Contribute bug fixes](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md).
+4. Follow the Expo CLI instructions to run the app on your preferred platform (iOS/Android).
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see
-the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com)
-with any additional questions or comments.
+## Building for Production
 
-## Documentation
+### Android
 
-*  [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-*  [Programming handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-*  [Homepage](https://www.typescriptlang.org/)
+1. Configure your app.json with your package name and version
+2. Set up your Google AdMob ID in app.config.js
+3. Build the Android app:
+```bash
+eas build --platform android
+```
 
-## Roadmap
+### iOS
 
-For details on our planned features and future direction, please refer to our [roadmap](https://github.com/microsoft/TypeScript/wiki/Roadmap).
+1. Configure your app.json with your bundle identifier and version
+2. Set up your Google AdMob ID in app.config.js
+3. Build the iOS app:
+```bash
+eas build --platform ios
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
