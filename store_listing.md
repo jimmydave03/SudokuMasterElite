@@ -1,7 +1,7 @@
 # Play Store Listing for Sudoku Master Elite
 
 ## Short Description (80 characters max)
-Challenge yourself with Sudoku Master Elite - the ultimate puzzle game for all skill levels!
+Experience the ultimate Sudoku puzzle game with beautiful design and smart features.
 
 ## Full Description
 🧩 Welcome to Sudoku Master Elite - Your Premium Puzzle Experience! 🎯
